@@ -20,16 +20,29 @@ public class RabbitMqSender(string exchange, string hostname = "localhost") : IM
     
     public void Dispose()
     {
-        throw new NotImplementedException();
+        _connection?.Dispose();
+        _channel?.Dispose();
     }
 
-    public ValueTask DisposeAsync()
+    public async ValueTask DisposeAsync()
     {
-        throw new NotImplementedException();
+        if(_connection != null) await _connection.DisposeAsync();
+        if(_channel != null) await _channel.DisposeAsync();
     }
 
-    public Task SendMessageAsync(AMessage message)
+    public async Task SendMessageAsync(AMessage message)
     {
-        throw new NotImplementedException();
+        if (_channel is null)
+        {
+            throw new NotSupportedException("Channel is not configured");
+        }
+
+        await _channel.BasicPublishAsync(
+            exchange: exchange,
+            routingKey: message.MessageType(),
+            mandatory: false,
+            basicProperties: new BasicProperties(),
+            body: message.Serialize()
+        );
     }
 }
