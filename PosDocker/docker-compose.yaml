@@ -1,0 +1,11 @@
+services:
+  pizza-postgresql:
+    image: postgres:17.2
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: pizzauser
+      POSTGRES_PASSWORD: pizzapwd
+      POSTGRES_MULTIPLE_DATABASES: userdb, paymentdb
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
