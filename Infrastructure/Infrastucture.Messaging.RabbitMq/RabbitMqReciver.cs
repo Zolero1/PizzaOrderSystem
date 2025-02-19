@@ -6,7 +6,7 @@ using RabbitMQ.Client.Events;
 
 namespace Infrastucture.Messaging.RabbitMq;
 
-public class RabbitMyReciver<T>(string exchange, string hostname = "localhost") : IMessageReciver<T> where T : AMessage, new()
+public class RabbitMqReciver<T>(string exchange, string hostname = "localhost") : IMessageReciver<T> where T : AMessage, new()
 {
     private IConnection? _connection;
     private IChannel? _channel;
@@ -14,7 +14,7 @@ public class RabbitMyReciver<T>(string exchange, string hostname = "localhost") 
 
     public event CloudEventMessageRecived<T>? OnMessageReceived;
 
-    public async Task Connect()
+    public async Task ConnectAsync()
     {
         var factory = new ConnectionFactory(){HostName = hostname};
         _connection = await factory.CreateConnectionAsync();

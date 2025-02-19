@@ -9,7 +9,7 @@ public class RabbitMqSender(string exchange, string hostname = "localhost") : IM
     private IConnection? _connection;
     private IChannel? _channel;
 
-    public async Task Connect()
+    public async Task ConnectAsync()
     {
         var factory = new ConnectionFactory(){HostName = hostname};
         _connection = await factory.CreateConnectionAsync();
