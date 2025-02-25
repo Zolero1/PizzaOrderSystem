@@ -13,7 +13,7 @@ public class OrderRequest
     public string CustomerName { get; set; }
 
     [Column("address"),Required]
-    public string address { get; set; }
+    public string Address { get; set; }
 
     public List<OrderRequestItem> Items { get; set; } = [];
 }

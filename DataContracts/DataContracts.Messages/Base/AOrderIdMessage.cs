@@ -6,8 +6,8 @@ public abstract class AOrderIdMessage : AMessage
 
     protected AOrderIdMessage(AOrderIdMessage other)
     {
-        OderId = other.OderId;
+        OrderId = other.OrderId;
     }
 
-    public Guid OderId { get; set; }
+    public Guid OrderId { get; set; }
 }
