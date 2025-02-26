@@ -1,0 +1,531 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Services\\Services.Payment\\Services.Payment.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.DataTransferObjects\\DataContracts.DataTransferObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.DataTransferObjects\\DataContracts.DataTransferObjects.csproj",
+        "projectName": "DataContracts.DataTransferObjects",
+        "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.DataTransferObjects\\DataContracts.DataTransferObjects.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.DataTransferObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj",
+        "projectName": "DataContracts.Messages",
+        "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudNative.CloudEvents": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "CloudNative.CloudEvents.Amqp": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "CloudNative.CloudEvents.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.Outbox\\Infrastructure.Messaging.Outbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.Outbox\\Infrastructure.Messaging.Outbox.csproj",
+        "projectName": "Infrastructure.Messaging.Outbox",
+        "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.Outbox\\Infrastructure.Messaging.Outbox.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.Outbox\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj"
+              },
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.RabbitMq\\Infrastructure.Messaging.RabbitMq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.RabbitMq\\Infrastructure.Messaging.RabbitMq.csproj",
+        "projectName": "Infrastructure.Messaging.RabbitMq",
+        "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.RabbitMq\\Infrastructure.Messaging.RabbitMq.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.RabbitMq\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj",
+        "projectName": "Infrastructure.Messaging",
+        "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\Infrastructure.Messaging.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Services\\Services.Payment\\Services.Payment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Services\\Services.Payment\\Services.Payment.csproj",
+        "projectName": "Services.Payment",
+        "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Services\\Services.Payment\\Services.Payment.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Services\\Services.Payment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.DataTransferObjects\\DataContracts.DataTransferObjects.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.DataTransferObjects\\DataContracts.DataTransferObjects.csproj"
+              },
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\DataContracts\\DataContracts.Messages\\DataContracts.Messages.csproj"
+              },
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.Outbox\\Infrastructure.Messaging.Outbox.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.Outbox\\Infrastructure.Messaging.Outbox.csproj"
+              },
+              "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.RabbitMq\\Infrastructure.Messaging.RabbitMq.csproj": {
+                "projectPath": "C:\\Users\\rapha\\Documents\\Schule\\HTL\\5AHIT\\SYTD\\PizzaOrderSystem\\Infrastructure\\Infrastructure.Messaging.RabbitMq\\Infrastructure.Messaging.RabbitMq.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

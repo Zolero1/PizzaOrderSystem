@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DataContracts.DataTransferObjects/1.0.0": {
+        "runtime": {
+          "DataContracts.DataTransferObjects.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataContracts.DataTransferObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
