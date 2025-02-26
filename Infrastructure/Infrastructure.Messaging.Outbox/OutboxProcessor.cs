@@ -10,7 +10,7 @@ namespace Infrastructur.Messaging.Outbox;
 
 public class OutboxProcessor {
     private static readonly Dictionary<string, Type> MessageTypes = new() {
-        { Constants.OrderRecievedV1, typeof(OrderReceived) }
+        { Constants.OrderReceivedV1, typeof(OrderReceived) }
     };
 
     public int ProcessingDelayMs { get; set; } = 2_000;

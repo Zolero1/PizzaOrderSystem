@@ -1,4 +1,6 @@
 ﻿using DataContracts.DataTransferObjects;
+using DataContracts.Messages.ServiceMessages;
+using Infrastructur.Messaging.Outbox.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Services.Payment.Db;
@@ -22,6 +24,10 @@ public static class PaymentRequestHandler {
         var payedAt = DateTimeOffset.UtcNow;
         pendingPayment.PayedAt = payedAt;
 
+        dbContext.Outbox.Add(OutboxMessage.FromMessage(new PaymentReceived() {
+            OrderId = dto.OrderId
+        }));
+        
         await dbContext.SaveChangesAsync();
 
         return new PaymentResponseDto() {

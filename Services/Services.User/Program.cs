@@ -49,4 +49,8 @@ app.MapPost("/order", UserRequestHandler.HandleOrderRequest)
     .WithName("Place Order")
     .WithOpenApi();
 
+app.MapGet("/order-items/{orderId:guid}", UserRequestHandler.HandleOrderItemsRequest)
+    .WithName("Order Items")
+    .WithOpenApi();
+
 app.Run();

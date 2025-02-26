@@ -3,5 +3,6 @@ namespace DataContracts.Messages;
 public class Constants {
     public const string ExchangeName = "pizza exchange";
 
-    public const string OrderRecievedV1 = "order.recieved.v1";
+    public const string OrderReceivedV1 = "order.recieved.v1";
+    public const string PaymentReceivedV1 = "payment.received.v1";
 }

@@ -17,5 +17,5 @@ public class OrderReceived : AOrderIdMessage
     
     public decimal TotalValue { get; set; }
     
-    public override string MessageType() => Constants.OrderRecievedV1;
+    public override string MessageType() => Constants.OrderReceivedV1;
 }

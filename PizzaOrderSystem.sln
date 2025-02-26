@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Messaging.Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Payment", "Services\Services.Payment\Services.Payment.csproj", "{773F4F14-10CD-4C53-82BE-0DD46D041292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Kitchen", "Services\Services.Kitchen\Services.Kitchen.csproj", "{DA8C27F9-9A57-4FC6-BD24-FFD114D279AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,7 @@ Global
 		{33257902-0E81-41FF-9A20-A6C3681013D5} = {4D3172DA-33B4-4D70-821F-F466FED08230}
 		{338E0DB6-7A91-44ED-9A8B-E4548E091D13} = {4D3172DA-33B4-4D70-821F-F466FED08230}
 		{773F4F14-10CD-4C53-82BE-0DD46D041292} = {11AFC50D-8E0F-4BD1-B956-8EE0E18B39EB}
+		{DA8C27F9-9A57-4FC6-BD24-FFD114D279AE} = {11AFC50D-8E0F-4BD1-B956-8EE0E18B39EB}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98D0EBF8-4068-478F-814C-311AA9B63913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -65,5 +68,9 @@ Global
 		{773F4F14-10CD-4C53-82BE-0DD46D041292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773F4F14-10CD-4C53-82BE-0DD46D041292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{773F4F14-10CD-4C53-82BE-0DD46D041292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8C27F9-9A57-4FC6-BD24-FFD114D279AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8C27F9-9A57-4FC6-BD24-FFD114D279AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8C27F9-9A57-4FC6-BD24-FFD114D279AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8C27F9-9A57-4FC6-BD24-FFD114D279AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
