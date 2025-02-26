@@ -1,4 +1,4 @@
-namespace Infrastucture.Messaging.RabbitMq.Exceptions;
+namespace Infrastructure.Messaging.RabbitMq.Exceptions;
 
 public class NotConnectedException : Exception
 {

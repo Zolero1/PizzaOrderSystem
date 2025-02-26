@@ -1,7 +1,7 @@
 using DataContracts.Messages.Base;
 using Infrastructure.Messaging;
 
-namespace Infrastucture.Messaging.RabbitMq;
+namespace Infrastructure.Messaging.RabbitMq;
 
 public class RabbitMqMessagingFactory
 {

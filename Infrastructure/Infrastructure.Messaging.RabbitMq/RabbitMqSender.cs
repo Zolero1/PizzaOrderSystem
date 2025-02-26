@@ -2,7 +2,7 @@ using DataContracts.Messages.Base;
 using Infrastructure.Messaging;
 using RabbitMQ.Client;
 
-namespace Infrastucture.Messaging.RabbitMq;
+namespace Infrastructure.Messaging.RabbitMq;
 
 public class RabbitMqSender(string exchange, string hostname = "localhost") : IMessageSender 
 {

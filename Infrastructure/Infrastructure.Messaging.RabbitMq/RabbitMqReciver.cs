@@ -4,7 +4,7 @@ using Infrastructure.Messaging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace Infrastucture.Messaging.RabbitMq;
+namespace Infrastructure.Messaging.RabbitMq;
 
 public class RabbitMqReciver<T>(string exchange, string hostname = "localhost") : IMessageReciver<T> where T : AMessage, new()
 {
@@ -57,12 +57,12 @@ public class RabbitMqReciver<T>(string exchange, string hostname = "localhost") 
                 await OnMessageReceived(cloudEvent, message);
             }
 
-            await _channel.BasicAckAsync(eventArgs.DeliveryTag, false);
+            await _channel!.BasicAckAsync(eventArgs.DeliveryTag, false);
         }
         catch
         {
             // TODO reque limitieren mit BadLetterQueue
-            await _channel.BasicNackAsync(eventArgs.DeliveryTag, false, false);
+            await _channel!.BasicNackAsync(eventArgs.DeliveryTag, false, false);
         }
     }
 

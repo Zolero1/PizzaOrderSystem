@@ -2,15 +2,15 @@ using DataContracts.Messages.Base;
 
 namespace DataContracts.Messages.ServiceMessages;
 
-public class OrderRecived : AOrderIdMessage
+public class OrderReceived : AOrderIdMessage
 {
     private const string DefaultUserName = "https://user.pizza-order-system.com";
-    public OrderRecived()
+    public OrderReceived()
     {
         SourceUri = new Uri(DefaultUserName);
     }
 
-    public OrderRecived(AOrderIdMessage other) : base(other)
+    public OrderReceived(AOrderIdMessage other) : base(other)
     {
         SourceUri = new Uri(DefaultUserName);
     }
