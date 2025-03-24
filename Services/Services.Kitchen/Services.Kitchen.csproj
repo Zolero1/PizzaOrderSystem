@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\DataContracts\DataContracts.DataTransferObjects\DataContracts.DataTransferObjects.csproj" />
       <ProjectReference Include="..\..\Infrastructure\Infrastructure.Messaging.RabbitMq\Infrastructure.Messaging.RabbitMq.csproj" />
       <ProjectReference Include="..\..\Infrastructure\Infrastructure.Messaging\Infrastructure.Messaging.csproj" />
     </ItemGroup>

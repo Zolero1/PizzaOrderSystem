@@ -39,7 +39,7 @@ public class OutboxProcessor {
                         await messageSender.SendMessageAsync(messageToSend);
                     }
 
-                    message.SentAt = DateTime.UtcNow;
+                    message.SentAt = DateTimeOffset.UtcNow;
                     await dbContext.SaveChangesAsync(stoppingToken);
                 }
                 else {
